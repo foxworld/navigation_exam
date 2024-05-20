@@ -19,4 +19,7 @@
         android:name="kr.co.ksnet.navigation_exam.SecondFragment"
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" />
+    <argument
+        android:name="var"
+        app:argType="string" />
 </navigation>
