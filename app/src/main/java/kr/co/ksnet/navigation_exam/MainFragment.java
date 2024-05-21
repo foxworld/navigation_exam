@@ -75,6 +75,7 @@ public class MainFragment extends Fragment {
         view.findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 Navigation.findNavController(v).navigate(action);
             }
         });
